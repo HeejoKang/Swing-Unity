@@ -1,0 +1,56 @@
+Initialize engine version: 5.6.2f1 (a2913c821e27)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660 Ti (ID=0x1183)
+    Vendor:   NVIDIA
+    VRAM:     2016 MB
+    Driver:   22.21.13.8205
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Matty\Desktop\Swing3\Swing_0.01_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Matty\Desktop\Swing3\Swing_0.01_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Matty\Desktop\Swing3\Swing_0.01_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Matty\Desktop\Swing3\Swing_0.01_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Matty\Desktop\Swing3\Swing_0.01_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Matty\Desktop\Swing3\Swing_0.01_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Matty\Desktop\Swing3\Swing_0.01_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Matty\Desktop\Swing3\Swing_0.01_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.070 seconds
+Platform assembly: C:\Users\Matty\Desktop\Swing3\Swing_0.01_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Matty\Desktop\Swing3\Swing_0.01_Data\Managed\System.dll (this message is harmless)
+desktop: 1440x900 75Hz; virtual: 1440x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.280851 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3dbc -> priority: 1 
+  Thread -> id: efc -> priority: 1 
+55.32544
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15.99859
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+68.16667
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+94.94755
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+85.57124
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+20.37902
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+30.01833
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
