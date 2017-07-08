@@ -51,7 +51,7 @@ public class hook4 : MonoBehaviour {
 			transform.position.y - 0.5f, transform.position.z);
 
 		if (flying) {
-			if (hit.transform.position!=null) {
+			if (hit.transform!=null) {
 				float dist = Vector3.Distance (hit.transform.position, transform.position);
 				if (dist > 10f) {
 					charbod.AddForce ((hit.transform.position - transform.position).normalized * pullstrength * Time.smoothDeltaTime);
