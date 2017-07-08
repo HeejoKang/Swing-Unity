@@ -45,6 +45,35 @@ public class Hook5 : MonoBehaviour {
 		timer = 0f;
 	}
 
+	void FixedUpdate(){
+
+		if (timer < 0) {
+
+			if (Input.GetKeyDown (KeyCode.Mouse0)) {
+
+				GameObject.Destroy (rope);
+
+				Ray ray = new Ray (transform.position, camera.transform.forward); // Changed this to camera.transform.forward but still bad crosshair bug
+				if(Physics.Raycast(ray, out hit, 100)){
+
+					charbod.AddForce (Vector3.up * 300f);
+					flying = true;			
+
+					target = hit.transform.gameObject;
+					rope = drawLine (linepos, hit.point, Color.blue);
+					roperender = rope.GetComponent<LineRenderer>();
+
+					timer = grapplecd;
+
+					Debug.Log (hit.distance);
+				}
+
+			}
+
+		}
+
+	}
+
 	// Update is called once per frame
 	void Update () {
 
@@ -80,7 +109,7 @@ public class Hook5 : MonoBehaviour {
 
 		}
 
-		if (timer < 0) {
+		/*if (timer < 0) {
 
 			if (Input.GetKeyDown (KeyCode.Mouse0)) {
 
@@ -103,7 +132,7 @@ public class Hook5 : MonoBehaviour {
 
 			}
 
-		}
+		}*/
 
 	}
 }
