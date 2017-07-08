@@ -15,6 +15,7 @@ public class hook4 : MonoBehaviour {
 	RaycastHit hit;
 	float grapplecd, timer;
 
+
 	// Draws lines
 	GameObject drawLine(Vector3 start, Vector3 end, Color color, float duration = 0.2f)
 	{
