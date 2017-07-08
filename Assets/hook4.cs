@@ -86,8 +86,6 @@ public class hook4 : MonoBehaviour {
 				Ray ray = new Ray(transform.position, transform.forward);
 				if(Physics.Raycast(ray, out hit, 100)){
 
-					//Vector3 dir = (this.transform.position - hit.transform.position).normalized;
-
 					charbod.AddForce (Vector3.up * 300f);
 					flying = true;
 
